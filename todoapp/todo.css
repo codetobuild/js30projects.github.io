@@ -1,0 +1,216 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+   
+}
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    background: linear-gradient(to right, dodgerblue, cyan);
+    background:url(./travis-blessing-1363876.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+        
+}
+
+ .contain-head
+ {   
+     max-width: 600px;
+     margin:auto;
+     padding:10px;
+ }
+.header
+{
+    max-width: 600px;
+    text-align: center;
+    background-color:rgba(29, 32, 32,0.6);
+    border:1px solid springgreen;
+    padding:10px;
+    border-radius: 5px;
+    margin:auto;
+    position: relative;
+    top:5rem;
+    margin-bottom: 6rem;
+    
+    
+}
+.header .title
+{
+    font-size: 2rem;
+    font-weight: bold;
+    color:white;
+    padding:10px;
+}
+.header .box{
+    display: flex;
+   
+}
+.header .box .inputBox{
+ flex:3 200px;
+ border:none;
+ outline:none;
+ font-size: 1.1rem;
+ padding:7px;
+ border-radius: 4px 0 0 4px ;
+
+}
+.box .btn
+{
+    flex:1 50px;
+    border:none;
+    outline:none;
+    padding:5px;
+    font-size: 1.1rem;
+   font-weight:300;
+   background-color: springgreen;
+   border-radius: 0 4px 4px 0;
+}
+.box .btn:hover{
+    background-color:rgb(0, 211, 141);
+    cursor: pointer;
+}
+
+
+ul{
+     padding:0;
+     list-style-type: none;
+      font-size: 1.1rem;
+     max-width: 600px;
+     margin:auto;
+  
+    
+}
+
+ul li{
+    background-color: rgba(29, 32, 32,0.6);
+    color:white;
+    list-style: none;
+    position: relative;
+    cursor:pointer;
+     padding:10px 25px;
+    transition: 0.2s;
+    margin:1.3px 10px;
+    
+    overflow: hidden;
+    transition: all .3s ease; 
+}
+ul li:hover{
+    border-left:8px solid springgreen;
+}
+
+ul li.checked{
+    text-decoration: line-through;
+    background-color: rgba(29, 32, 32,0.6);
+    color:gray
+}
+ul li.checked:hover{
+    border:none;
+}
+
+ul li.checked::before{
+    content:'';
+    height:10px;
+    width:5px;
+    border-width:0 2px 2px 0 ;
+    border-style: solid;
+    border-color: springgreen;
+    position:absolute;
+    top:13px;
+    left:7px;
+    transform: rotate(45deg);
+}
+ 
+.close {
+   
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px 12px;
+    color:white;
+    transition: all .3s ease; 
+  }
+  .close:hover {
+ 
+    background-color: white;
+    color:black;
+  }
+
+
+.info-icon
+{
+     font-family: monospace;
+     color:white;
+     position: absolute;
+     top:5px ;
+     right: 5px;
+     z-index: 2;
+     width:2rem;
+     height: auto;
+     border-radius: 5px;
+     background-color: black;
+     color:springgreen;
+     font-size: 1.5rem;
+     border:1.5px solid springgreen;
+}
+.info-icon:hover
+{ 
+    background-color: white;
+    color:black;
+    box-shadow: none;
+    cursor:pointer;
+    border:none;
+}
+.info-main{
+    background-color: dodgerblue;
+    position: absolute;
+    z-index: 1;
+    top:0;
+    right:0;
+    border-radius: 5px;
+   width:0;
+   height:0;
+    border-bottom-left-radius: 999999px;
+    transition: all .6s ease;
+    overflow:hidden;
+    text-align: center;
+    color:white;
+
+
+}
+
+.visible{
+    width:15rem;
+    height:15rem;
+   
+}
+span {
+    display: block;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    color:white;
+ padding:10px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
