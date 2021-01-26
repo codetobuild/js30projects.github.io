@@ -168,8 +168,7 @@ ul li.checked::before{
     border:none;
 }
 .info-main{
-    background: linear-gradient( 45deg, green, springgreen);
-    background-position:  ;
+    background-color: dodgerblue;
     position: absolute;
     z-index: 1;
     top:0;
