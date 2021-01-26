@@ -168,7 +168,8 @@ ul li.checked::before{
     border:none;
 }
 .info-main{
-    background-color: dodgerblue;
+    background: linear-gradient( 45deg, green, springgreen);
+    background-position:  ;
     position: absolute;
     z-index: 1;
     top:0;
@@ -176,11 +177,13 @@ ul li.checked::before{
     border-radius: 5px;
    width:0;
    height:0;
-    border-bottom-left-radius: 999999px;
-    transition: all .6s ease;
+   border-bottom-left-radius:9999px;
+   border-bottom-right-radius: 0px;
+   box-shadow: -10px 3px 17px  rgba(0, 0, 0,0.7);
+
+   transition: all .6s ease;
     overflow:hidden;
     text-align: center;
-    color:white;
 
 
 }
@@ -194,7 +197,6 @@ span {
     display: block;
     font-size: 1.3rem;
     font-weight: bolder;
-    color:white;
  padding:10px 20px;
 }
 

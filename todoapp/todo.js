@@ -82,7 +82,7 @@ function setTimeDate( day,month,year, today)
 setInterval(() => {
     
   const date= new Date();
-   var currday =date.getDay();
+   var currday =date.getDate();
    currday = (currday<10) ? '0'+currday: currday;
 
   var currMonth= date.toLocaleString('default', { month: 'long' });
